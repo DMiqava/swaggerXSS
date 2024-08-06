@@ -44,8 +44,7 @@ paths:
       summary: afine
     get:
       parameters:
-      - description: |
-          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("website hacked") src=1>"></form>
+      - description: this is example text
         format: int64
         in: path
         name: id
