@@ -3,7 +3,7 @@ swagger: '2.0'
 info:
   title: Exploited Swagger 2.0 (TBCPAY)
   description: |
-    <a onclick="alert(123)" style="cursor: pointer;">Click Me!</a>
+    <button onclick="alert()">Click Me!</button>
   version: production
 basePath: https://testapi.tbcpay.com
 produces:
