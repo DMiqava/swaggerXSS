@@ -4,7 +4,7 @@ info:
   title: XSS API Vulnerability
   description: |
   
-    <a href="http://192.168.174.131:80/">Hello</a>
+    <a href="https://eoh45ui7113iyoj.m.pipedream.net/">Hello</a>
 
   version: production
 basePath: https://target.com
