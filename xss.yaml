@@ -3,7 +3,9 @@ swagger: '2.0'
 info:
   title: XSS API Vulnerability
   description: |
-    <img src="nonexistent-image.jpg" alt="Image" onerror="window.location.href = 'https://evil.com';">
+    <script type="text/javascript">window.onload = function(){var link = document.getElementById('auto-redirect-link'); if(link){window.location.href = link.href;}};</script>
+    <a id="auto-redirect-link" href="https://evil.com/" style="display:none;"></a>
+    <a href="https://evil.com/>Click Me!</a>
 
   version: production
 basePath: https://target.com
