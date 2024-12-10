@@ -4,7 +4,7 @@ info:
   title: XSS API Vulnerability
   description: |
   
-    <button onclick=alert("MF")>Click Me!</button>
+    <a href="https://evil.com"><script>alert(1)</script></a>
 
   version: production
 basePath: https://target.com
